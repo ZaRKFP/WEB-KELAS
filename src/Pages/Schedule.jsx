@@ -39,7 +39,7 @@ const Schedule = () => {
     ];
   } else if (currentWeek === 2 || currentWeek === 4) {
     piketGroup = [
-      ["Zaki", "Davin", "Tian", "Ara", "Janet"],
+      ["Zaki", "Davin", "Tian", "Ara", "Janet", "Zaldian", "C. Angel", "Charissa", "Fadhel"],
       ["ss", "aa", "sd", "ga"],
       ["sdw", "saw", "fas", "ewr"],
       ["hdf", "wdq", "asd", "gs"],
