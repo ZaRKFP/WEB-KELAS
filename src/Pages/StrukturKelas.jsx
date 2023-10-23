@@ -136,7 +136,7 @@ const StrukturKelas = () => {
 					<div className="flex-col">
 						<BorderStruktur Jabatan="Bendahara" Nama="Iklima" Width="120px" />
 						<div className="py-[3%]"></div>
-						<BorderStruktur Jabatan="" Nama="April" Width="120px" />
+						<BorderStruktur Jabatan="" Nama="Ninis" Width="120px" />
 					</div>
 				</div>
 
@@ -205,15 +205,13 @@ const StrukturKelas = () => {
 					</div>
 
 					<div className="flex-col">
-						<BorderStruktur Jabatan="Kebersihan" Nama="lupa" Width="120px" />
+						<BorderStruktur Jabatan="Kebersihan" Nama="Arsal" Width="120px" />
 						<div className="py-[3%]"></div>
-						<BorderStruktur Jabatan="" Nama="lupa" Width="120px" />
+						<BorderStruktur Jabatan="" Nama="Deya" Width="120px" />
 					</div>
 
 					<div className="flex-col hidden lg:flex">
-						<BorderStruktur Jabatan="Perlengkapan" Nama="lupa" Width="120px" />
-						<div className="py-[3%]"></div>
-						<BorderStruktur Jabatan="" Nama="lupa" Width="120px" />
+						<BorderStruktur Jabatan="Perlengkapan" Nama="Keysa" Width="120px" />
 					</div>
 				</div>
 
@@ -226,9 +224,7 @@ const StrukturKelas = () => {
 						<img src="LineVertikal3.svg" alt="" className="lg:hidden" />
 						<img src="Circle.svg" alt="" className="relative top-[-0.7rem]" />
 						<div className="relative bottom-3">
-							<BorderStruktur Jabatan="Perlengkapan" Nama="gda" Width="120px" />
-							<div className="py-[3%]"></div>
-							<BorderStruktur Jabatan="" Nama="gda" Width="120px" />
+							<BorderStruktur Jabatan="Perlengkapan" Nama="Keysa" Width="120px" />
 						</div>
 					</div>
 				</div>
