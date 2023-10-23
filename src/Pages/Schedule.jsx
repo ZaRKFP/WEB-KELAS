@@ -10,13 +10,13 @@ const Jumat = React.lazy(() => import("../components/Mapel/Jumat"));
 
 const Schedule = () => {
   const daysOfWeek = [
-    "Sunday",
-    "Monday",
-    "Tuesday",
-    "Wednesday",
-    "Thursday",
-    "Friday",
-    "Saturday",
+    "Minggu",
+    "Senin",
+    "Selasa",
+    "Rabu",
+    "Kamis",
+    "Jumat",
+    "Sabtu",
   ];
   const currentDay = daysOfWeek[new Date().getDay()];
   const currentWeek = Math.floor((new Date().getDate() - 1) / 7) + 1;
@@ -31,19 +31,19 @@ const Schedule = () => {
   // Menentukan kelompok piket berdasarkan minggu saat ini
   if (currentWeek === 1 || currentWeek === 3) {
     piketGroup = [
-      ["Zaki", "Davin", "Tian", "Ara", "Janet", "Zaldian", "C. Angel", "Charissa", "Fadhel"],
-      ["ss", "aa", "sd", "ga"],
-      ["sdw", "saw", "fas", "ewr"],
-      ["hdf", "wdq", "asd", "gs"],
-      ["hse", "eqfa", "egq", "asfae"],
+      ["Zaki", "Davin", "Tian", "Ara", "Janet", "Zaldian", "C. Angel", "Charissa", "Fadhel" ],
+      ["Adam","Abigail", "Angel Rahman", "Bunga", "Daniel", "Early", "Firman", "Lintang", "Noura" ],
+      ["Dwi", "Tiara", "Tata", "Iklima", "Ninis", "Rafif", "Kayla", "Jasmine", "Marvel"],
+      ["April", "Arsal", "Gerald", "Jochebed", "Keisya", "Kevin", "Keysa", "Syakira", "Vennesa"],
+      ["Antik", "Deya", "Ellena", "Lubna", "Nadiya", "Nashwa", "Shabita", "Rebecca"],
     ];
   } else if (currentWeek === 2 || currentWeek === 4) {
     piketGroup = [
       ["Zaki", "Davin", "Tian", "Ara", "Janet", "Zaldian", "C. Angel", "Charissa", "Fadhel"],
-      ["ss", "aa", "sd", "ga"],
-      ["sdw", "saw", "fas", "ewr"],
-      ["hdf", "wdq", "asd", "gs"],
-      ["hse", "eqfa", "egq", "asfae"],
+      ["Adam","Abigail", "Angel Rahman", "Bunga", "Daniel", "Early", "Firman", "Lintang", "Noura"],
+      ["Dwi", "Tiara", "Tata", "Iklima", "Ninis", "Rafif", "Kayla", "Jasmine", "Marvel"],
+      ["April", "Arsal", "Gerald", "Jochebed", "Keisya", "Kevin", "Keysa", "Syakira", "Vennesa"],
+      ["Antik", "Deya", "Ellena", "Lubna", "Nadiya", "Nashwa", "Shabita", "Rebecca"],
     ];
   }
 
