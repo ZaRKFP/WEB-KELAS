@@ -271,20 +271,24 @@ const StrukturKelas = () => {
 					data-aos="fade-up"
 					data-aos-duration="1500">
 					<div className="flex-col">
-						<BorderStruktur Jabatan="Keagamaan" Nama="Tian" Width="120px" />
+						<BorderStruktur Jabatan="Keagamaan" Nama="Nadiya" Width="120px" />
 						<div className="py-[3%]"></div>
 						<BorderStruktur Jabatan="" Nama="Vennesa" Width="120px" />
+						<div className="py-[3%]"></div>
 						<BorderStruktur Jabatan="" Nama="Abigail" Width="120px" />
-					</div>
+						<div className="py-[3%]"></div>
+						<BorderStruktur Jabatan="" Nama="Rebecca" Width="120px" />					</div>
 
 					<div className="flex-col">
-						<BorderStruktur Jabatan="Olahraga" Nama="Siapa ya" Width="120px" />
+						<BorderStruktur Jabatan="Olahraga" Nama="Bunga" Width="120px" />
 						<div className="py-[3%]"></div>
-						<BorderStruktur Jabatan="" Nama="Lupajir" Width="120px" />
+						<BorderStruktur Jabatan="" Nama="Gerald" Width="120px" />
 					</div>
 
 					<div className="flex-col hidden lg:flex">
-						<BorderStruktur Jabatan="Humas" Nama="Forgor" Width="120px" />
+						<BorderStruktur Jabatan="Kegiatan" Nama="Jochebed" Width="120px" />
+						<div className="py-[3%]"></div>
+						<BorderStruktur Jabatan="" Nama="April" Width="120px" />
 					</div>
 				</div>
 
